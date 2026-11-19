@@ -8,7 +8,7 @@ const manrope = Manrope({ subsets: ["latin"], variable: "--font-latin" });
 export const metadata: Metadata = {
   title: "Ahmed Rashad | SEO Specialist & Software Developer",
   description: "Ahmed Rashad helps ambitious businesses grow through technical SEO, software, and interactive digital products.",
-  metadataBase: new URL("https://ahmedrashad.dev"),
+  metadataBase: new URL("https://ahmedrashadali7-sketch.github.io/Ahmed-Rashad-Ali/"),
   openGraph: {
     title: "Ahmed Rashad | SEO Specialist & Software Developer",
     description: "Technical SEO, software, and game development portfolio.",
