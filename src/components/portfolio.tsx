@@ -12,7 +12,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, MotionConfig } from "framer-motion";
 
 type Language = "en" | "ar";
 
@@ -160,6 +160,7 @@ export function Portfolio() {
     setLang((current) => (current === "en" ? "ar" : "en"));
 
   return (
+    <MotionConfig reducedMotion="user">
     <main>
       <a className="skip-link" href="#main-content">
         Skip to content
@@ -502,5 +503,6 @@ export function Portfolio() {
         </div>
       </footer>
     </main>
+    </MotionConfig>
   );
 }
