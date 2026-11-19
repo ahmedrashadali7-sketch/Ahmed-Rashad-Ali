@@ -27,6 +27,7 @@ export const metadata: Metadata = {
       "SEO, software development, and game development — one portfolio.",
     type: "website",
   },
+  icons: { icon: "/favicon.svg" },
   robots: {
     index: true,
     follow: true,
