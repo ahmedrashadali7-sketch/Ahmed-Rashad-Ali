@@ -125,3 +125,6 @@ button { font: inherit; cursor: pointer; }
     transition-duration: .01ms !important;
   }
 }
+
+body[dir="rtl"] .section-title,
+body[dir="rtl"] h1 { letter-spacing: normal; }
